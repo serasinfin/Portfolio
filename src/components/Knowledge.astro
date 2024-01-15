@@ -1,0 +1,69 @@
+---
+const pythonLogo = "../public/img/python-color.svg"
+const jsLogo = "../public/img/js-color.svg"
+const goLogo = "../public/img/go-color.svg"
+const gitLogo = "../public/img/git-color.svg"
+const postgresqlLogo = "../public/img/postgresql-color.svg"
+const dockerLogo = "../public/img/docker-color.svg"
+const awsLogo = "../public/img/aws-color.svg"
+---
+
+<section>
+    <div class="flex flex-col justify-center items-center pt-5">
+        <h2 class="text-xl text-center font-normal text-[#C5C5C5] pt-2">MAIN TECHNOLOGIES</h2>
+    </div>
+    <!--Logos-->
+    <div>
+        <div class="flex flex-row justify-center items-center">
+            <div class="python-logo flex flex-col justify-center items-center p-4">
+                <img src={pythonLogo} alt="Python" class="w-10 h-10" />
+                <span class="tooltip-python mt-20 bg-gray-100 text-gray-800 rounded shadow-lg p-1 text-center text-xs invisible absolute">
+                    <span class="arrow-top"></span>
+                    <span class="leading-tight">Python</span>
+                </span>
+            </div>
+            <div class="js-logo flex flex-col justify-center items-center p-4">
+                <img src={jsLogo} alt="JavaScript" class="fill-current text-white hover:text-current w-10 h-10" />
+                <span class="tooltip-js mt-20 bg-gray-100 text-gray-800 rounded shadow-lg p-1 text-center text-xs invisible absolute">
+                    <span class="arrow-top"></span>
+                    <span class="leading-tight">JavaScript</span>
+                </span>
+            </div>
+            <div class="go-logo flex flex-col justify-center items-center p-4">
+                <img src={goLogo} alt="Go" class="w-20 h-20 hover:fill-white" />
+                <span class="tooltip-go mt-20 bg-gray-100 text-gray-800 rounded shadow-lg p-1 text-center text-xs invisible absolute">
+                    <span class="arrow-top"></span>
+                    <span class="leading-tight">Go</span>
+                </span>
+            </div>
+            <div class="git-logo flex flex-col justify-center items-center p-4">
+                <img src={gitLogo} alt="Git" class="w-10 h-10" />
+                <span class="tooltip-git mt-20 bg-gray-100 text-gray-800 rounded shadow-lg p-1 text-center text-xs invisible absolute">
+                    <span class="arrow-top"></span>
+                    <span class="leading-tight">Git</span>
+                </span>
+            </div>
+            <div class="postgresql-logo flex flex-col justify-center items-center p-4">
+                <img src={postgresqlLogo} alt="PostgreSQL" class="w-10 h-10" />
+                <span class="tooltip-postgresql mt-20 bg-gray-100 text-gray-800 rounded shadow-lg p-1 text-center text-xs invisible absolute">
+                    <span class="arrow-top"></span>
+                    <span class="leading-tight">PostgreSQL</span>
+                </span>
+            </div>
+            <div class="aws-logo flex flex-col justify-center items-center p-4">
+                <img src={awsLogo} alt="AWS" class="w-10 h-10" />
+                <span class="tooltip-aws mt-20 bg-gray-100 text-gray-800 rounded shadow-lg p-1 text-center text-xs invisible absolute">
+                    <span class="arrow-top"></span>
+                    <span class="leading-tight">AWS</span>
+                </span>
+            </div>
+            <div class="docker-logo flex flex-col justify-center items-center p-4">
+                <img src={dockerLogo} alt="Docker" class="w-10 h-10" />
+                <span class="tooltip-docker mt-20 bg-gray-100 text-gray-800 rounded shadow-lg p-1 text-center text-xs invisible absolute">
+                    <span class="arrow-top"></span>
+                    <span class="leading-tight">Docker</span>
+                </span>
+            </div>
+        </div>
+    </div>
+</section>

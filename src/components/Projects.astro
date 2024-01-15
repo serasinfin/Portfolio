@@ -1,0 +1,17 @@
+---
+
+import DigitalMenu from "./projects/DigitalMenu.astro";
+import Dashboard from "./projects/Dashboard.astro";
+import Invoice from "./projects/Invoice.astro";---
+
+<section>
+    <div class="flex flex-col justify-center items-center pt-8">
+        <h2 class="text-3xl text-center font-bold text-[#FBD743] pt-2">LAST PROJECTS</h2>
+    </div>
+    <!--Projects cards-->
+    <div class="flex flex-wrap justify-center pt-10">
+        <Invoice />
+        <DigitalMenu />
+        <Dashboard />
+    </div>
+</section>

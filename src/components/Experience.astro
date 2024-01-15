@@ -1,70 +1,211 @@
 ---
 const pythonLogo = "../public/img/python-color.svg"
+const djangoLogo = "../public/img/django-color.svg"
+const fastApiLogo = "../public/img/fastapi-color.svg"
 const jsLogo = "../public/img/js-color.svg"
+const nextLogo = "../public/img/next-color.svg"
+const reactLogo = "../public/img/react-color.svg"
 const goLogo = "../public/img/go-color.svg"
-const gitLogo = "../public/img/git-color.svg"
+const gitLabLogo = "../public/img/gitlab-color.svg"
+const githubLogo = "../public/img/github-color.svg"
 const postgresqlLogo = "../public/img/postgresql-color.svg"
 const dockerLogo = "../public/img/docker-color.svg"
-const awsLogo = "../public/img/aws-color.svg"
+const doLogo = "../public/img/do-color.svg"
+const linuxLogo = "../public/img/linux-color.svg"
 ---
 
 <section>
-    <div class="flex flex-col justify-center items-center pt-5">
-        <h2 class="text-xl text-center font-normal text-[#C5C5C5] pt-2">EXPERIENCE</h2>
+    <div class="flex flex-col justify-center items-center pt-16">
+        <h2 class="text-3xl text-center font-bold text-[#7ED957] pt-2">EXPERIENCE</h2>
     </div>
-    <!--Logos-->
     <div>
-        <div class="flex flex-row justify-center items-center">
-            <div class="python-logo flex flex-col justify-center items-center p-4">
-                <img src={pythonLogo} alt="Python" class="w-10 h-10" />
-                <span class="tooltip-python mt-20 bg-gray-100 text-gray-800 rounded shadow-lg p-1 text-center text-xs invisible absolute">
-                    <span class="arrow-top"></span>
-                    <span class="leading-tight">Python</span>
-                </span>
+        <div class="w-1/2 mx-auto pt-16">
+            <!--Title job and date-->
+            <div class="flex flex-row justify-between items-center">
+                <div class="pr-4">
+                    <h3 class="text-2xl font-bold text-white">IT Developer</h3>
+                </div>
+                <div class="pl-4">
+                    <h4 class="font-extralight text-[#C5C5C5]">Oct 2023 - Present</h4>
+                </div>
             </div>
-            <div class="js-logo flex flex-col justify-center items-center p-4">
-                <img src={jsLogo} alt="JavaScript" class="fill-current text-white hover:text-current w-10 h-10" />
-                <span class="tooltip-js mt-20 bg-gray-100 text-gray-800 rounded shadow-lg p-1 text-center text-xs invisible absolute">
-                    <span class="arrow-top"></span>
-                    <span class="leading-tight">JavaScript</span>
-                </span>
+            <!--Description-->
+            <div>
+                <p class="text-xl text-justify font-light mx-auto pt-6">I currently work as an IT developer in a
+                    telecommunications company. I am in charge of an automated conversation system called
+                    <b>RAPIDPRO</b> as well as developing new functionalities and <b>integrations with other systems</b>
+                    through APIs.</p>
             </div>
-            <div class="go-logo flex flex-col justify-center items-center p-4">
-                <img src={goLogo} alt="Go" class="w-20 h-20 hover:fill-white" />
-                <span class="tooltip-go mt-20 bg-gray-100 text-gray-800 rounded shadow-lg p-1 text-center text-xs invisible absolute">
-                    <span class="arrow-top"></span>
-                    <span class="leading-tight">Go</span>
-                </span>
-            </div>
-            <div class="git-logo flex flex-col justify-center items-center p-4">
-                <img src={gitLogo} alt="Git" class="w-10 h-10" />
-                <span class="tooltip-git mt-20 bg-gray-100 text-gray-800 rounded shadow-lg p-1 text-center text-xs invisible absolute">
-                    <span class="arrow-top"></span>
-                    <span class="leading-tight">Git</span>
-                </span>
-            </div>
-            <div class="postgresql-logo flex flex-col justify-center items-center p-4">
-                <img src={postgresqlLogo} alt="PostgreSQL" class="w-10 h-10" />
-                <span class="tooltip-postgresql mt-20 bg-gray-100 text-gray-800 rounded shadow-lg p-1 text-center text-xs invisible absolute">
-                    <span class="arrow-top"></span>
-                    <span class="leading-tight">PostgreSQL</span>
-                </span>
-            </div>
-            <div class="aws-logo flex flex-col justify-center items-center p-4">
-                <img src={awsLogo} alt="AWS" class="w-10 h-10" />
-                <span class="tooltip-aws mt-20 bg-gray-100 text-gray-800 rounded shadow-lg p-1 text-center text-xs invisible absolute">
-                    <span class="arrow-top"></span>
-                    <span class="leading-tight">AWS</span>
-                </span>
-            </div>
-            <div class="docker-logo flex flex-col justify-center items-center p-4">
-                <img src={dockerLogo} alt="Docker" class="w-10 h-10" />
-                <span class="tooltip-docker mt-20 bg-gray-100 text-gray-800 rounded shadow-lg p-1 text-center text-xs invisible absolute">
-                    <span class="arrow-top"></span>
-                    <span class="leading-tight">Docker</span>
-                </span>
+            <!--Logos-->
+            <div class="justify-start flex flex-row pt-2">
+                <div class="flex flex-col justify-center items-center p-1">
+                    <img src={pythonLogo}
+                         alt="Python"
+                         class="w-8 h-8"
+                    />
+                </div>
+                <div class="flex flex-col justify-center items-center p-1">
+                    <img src={jsLogo}
+                         alt="JavaScript"
+                         class="fill-current text-white hover:text-current w-8 h-8"
+                    />
+                </div>
+                <div class="flex flex-col justify-center items-center p-1">
+                    <img src={goLogo}
+                         alt="Go"
+                         class="fill-current text-white hover:text-current w-8 h-8"
+                    />
+                </div>
+                <div class="flex flex-col justify-center items-center p-1">
+                    <img src={postgresqlLogo}
+                         alt="PostgreSQL"
+                         class="fill-current text-white hover:text-current w-8 h-8"
+                    />
+                </div>
+                <div class="flex flex-col justify-center items-center p-1">
+                    <img src={gitLabLogo}
+                         alt="GitLab"
+                         class="fill-current text-white hover:text-current w-8 h-8"
+                    />
+                </div>
+                <div class="flex flex-col justify-center items-center p-1">
+                    <img src={linuxLogo}
+                         alt="Linux"
+                         class="fill-current text-white hover:text-current w-8 h-8"
+                    />
+                </div>
+                <div class="flex flex-col justify-center items-center p-1">
+                    <img src={dockerLogo}
+                         alt="Docker"
+                         class="fill-current text-white hover:text-current w-8 h-8"
+                    />
+                </div>
             </div>
         </div>
-
+        <div class="w-1/2 mx-auto pt-16">
+            <!--Title job and date-->
+            <div class="flex flex-row justify-between items-center">
+                <div class="pr-4">
+                    <h3 class="text-2xl font-bold text-white">Full Stack Developer</h3>
+                </div>
+                <div class="pl-4">
+                    <h4 class="font-extralight text-[#C5C5C5]">Dec 2020 - Jul 2023</h4>
+                </div>
+            </div>
+            <!--Description-->
+            <div>
+                <p class="text-xl text-justify font-light mx-auto pt-6">I worked in an accounting and administrative
+                    services company where <b>I developed multiple productivity tools</b> such as a <b>multi-company
+                        information manager</b>, <b>XML invoice manager</b>. The most complex tool was a <b>multi-account
+                        banking</b> transaction management system.</p>
+            </div>
+            <!--Logos-->
+            <div class="justify-start flex flex-row pt-2">
+                <div class="flex flex-col justify-center items-center p-1">
+                    <img src={pythonLogo}
+                         alt="Python"
+                         class="w-8 h-8"
+                    />
+                </div>
+                <div class="flex flex-col justify-center items-center p-1">
+                    <img src={fastApiLogo}
+                         alt="FastAPI"
+                         class="w-8 h-8"
+                    />
+                </div>
+                <div class="flex flex-col justify-center items-center p-1">
+                    <img src={jsLogo}
+                         alt="JavaScript"
+                         class="fill-current text-white hover:text-current w-8 h-8"
+                    />
+                </div>
+                <div class="flex flex-col justify-center items-center p-1">
+                    <img src={nextLogo}
+                         alt="NextJS"
+                         class="fill-current text-white hover:text-current w-8 h-8"
+                    />
+                </div>
+                <div class="flex flex-col justify-center items-center p-1">
+                    <img src={reactLogo}
+                         alt="ReactJS"
+                         class="fill-current text-white hover:text-current w-8 h-8"
+                    />
+                </div>
+                <div class="flex flex-col justify-center items-center p-1">
+                    <img src={goLogo}
+                         alt="Go"
+                         class="fill-current text-white hover:text-current w-8 h-8"
+                    />
+                </div>
+                <div class="flex flex-col justify-center items-center p-1">
+                    <img src={postgresqlLogo}
+                         alt="PostgreSQL"
+                         class="fill-current text-white hover:text-current w-8 h-8"
+                    />
+                </div>
+                <div class="flex flex-col justify-center items-center p-1">
+                    <img src={githubLogo}
+                         alt="GitHub"
+                         class="fill-current text-white hover:text-current w-8 h-8"
+                    />
+                </div>
+                <div class="flex flex-col justify-center items-center p-1">
+                    <img src={doLogo}
+                         alt="Digital Ocean"
+                         class="fill-current text-white hover:text-current w-8 h-8"
+                    />
+                </div>
+            </div>
+        </div>
+        <div class="w-1/2 mx-auto pt-16">
+            <!--Title job and date-->
+            <div class="flex flex-row justify-between items-center">
+                <div class="pr-4">
+                    <h3 class="text-2xl font-bold text-white">Project Full Stack</h3>
+                </div>
+                <div class="pl-4">
+                    <h4 class="font-extralight text-[#C5C5C5]">Aug 2020 - Oct 2020</h4>
+                </div>
+            </div>
+            <!--Description-->
+            <div>
+                <p class="text-xl text-justify font-light mx-auto pt-6">I have developed a digital menu system for
+                    multiple restaurants. It was my first full stack development put into production. Developed in
+                    Django and deployed in a Digital Ocean dloplet.</p>
+            </div>
+            <!--Logos-->
+            <div class="justify-start flex flex-row pt-2">
+                <div class="flex flex-col justify-center items-center p-1">
+                    <img src={pythonLogo}
+                         alt="Python"
+                         class="w-8 h-8"
+                    />
+                </div>
+                <div class="flex flex-col justify-center items-center p-1">
+                    <img src={djangoLogo}
+                         alt="Django"
+                         class="fill-current text-white hover:text-current w-8 h-8"
+                    />
+                </div>
+                <div class="flex flex-col justify-center items-center p-1">
+                    <img src={postgresqlLogo}
+                         alt="PostgreSQL"
+                         class="fill-current text-white hover:text-current w-8 h-8"
+                    />
+                </div>
+                <div class="flex flex-col justify-center items-center p-1">
+                    <img src={linuxLogo}
+                         alt="Linux"
+                         class="fill-current text-white hover:text-current w-8 h-8"
+                    />
+                </div>
+                <div class="flex flex-col justify-center items-center p-1">
+                    <img src={doLogo}
+                         alt="Digital Ocean"
+                         class="fill-current text-white hover:text-current w-8 h-8"
+                    />
+                </div>
+            </div>
+        </div>
     </div>
 </section>

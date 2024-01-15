@@ -1,6 +1,8 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import Home from "../components/Home.astro";
+import Projects from "../components/Projects.astro";
+import Knowledge from "../components/Knowledge.astro";
 import Experience from "../components/Experience.astro";
 
 const Title = 'Alejandro Serafin Gutierrez - Software Engineer';
@@ -11,6 +13,10 @@ const Keywords = 'Alejandro Serafin Gutierrez, Python, Django, FastAPI, Flask, J
 <Layout title={Title} description={Description} keywords={Keywords}>
 	<main>
 	<Home />
+	<Knowledge />
+	<Projects />
 	<Experience />
+		<br/>
+		<br/>
 	</main>
 </Layout>
